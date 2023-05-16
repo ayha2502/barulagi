@@ -1,0 +1,76 @@
+.banner{
+    background-image: url('Gambar/ft1.jpg');
+    height: 45vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0,0, .6);
+}
+
+/* event 0 */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 25px;
+    position: relative;
+}
+/* garis bawah */
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #676a67;
+}
+.heading iframe{
+    width: 400px;
+    height: 500px;
+}
+
+.heading p{
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 35px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.heading img{
+    width: 400px;
+    height: 500px;
+}
+
