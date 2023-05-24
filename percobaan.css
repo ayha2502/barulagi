@@ -1,5 +1,6 @@
+
 .banner{
-    background-image: url('Gambar/ft1.jpg');
+    background-image: url('ft1.jpg');
     height: 45vh;
     background-size: cover;
     position: relative;
@@ -18,19 +19,6 @@
     background-color: rgba(0, 0,0, .6);
 }
 
-/* event 0 */
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-body{
-    background-color: #f2f2f2;
-    padding: 0;
-    margin: 0;
-}
 .heading{
     width: 90%;
     display: flex;
@@ -73,4 +61,69 @@ body{
     width: 400px;
     height: 500px;
 }
+/* card */
 
+.card-fitur h5{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-fitur span{
+    color:#fff;
+    font-size: 14px;
+}
+.card-fitur h6{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-fitur button{
+    background-color: #f0525f;
+    color: #fff;
+    border: none;
+    width: 110px;
+    height: 30px;
+
+}
+.card-fitur .overlay{
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+.card-fitur .overlay:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+.carousel-inner-fitur {
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .carousel-item-fitur {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .carousel-inner-fitur {
+    display: flex;
+  }
+}
+.card-fitur .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-fitur img {
+    max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card-fitur .img-wrapper {
+    height: 17em;
+  }
+}
+.btn:hover{
+  background-color: #f0525f;
+  color: #fff;
+}
