@@ -62,7 +62,7 @@
     border-color: var(--primary);
 }
 
-<<<<<<< HEAD
+
 
 /* FOOTER */
 .footer .btn.btn-link {
@@ -86,7 +86,7 @@
 
 .footer .btn.btn-link:hover {
     letter-spacing: 1px;
-=======
+}
 /*--------------restaurant--------*/
 .restaurant img {
   width: 100%;
@@ -289,5 +289,5 @@
     .box-push{
         transform: translateY(0);
     }
->>>>>>> 21c8829b4d8a4c3778ccad4b31ff1ecc5e1e3220
+
 }
